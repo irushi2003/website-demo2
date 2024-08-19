@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="addtocart.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/92d70a2fd8.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet"
+        href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+        <link rel="icon"type="image/png" href="img/logo.png">
+    </head>
+    <body>
+        <div id="backtohome"><a href="#"><i class="fa-solid fa-arrow-up"></i></a></div>
+         <!--Navbar-->
+   <header>
+    <a href="#" class="logo">
+        <img src="img/logo.png" alt="">
+    </a>
+    <!--Menu Icon-->
+    <i class='bx bx-menu' id="menu-icon"></i>
+    <!--Links-->
+    <ul class="navbar">
+        <li> <a href="index.html">Home</a></li>
+        <li> <a href="#about">About Us</a></li>
+        <li> <a href="#products">Products</a></li>
+        <li> <a href="#customers">Customers</a></li>
+    </ul>
+    <div class="nav-button">
+        <a href="logout.php" class="btn white-btn">Log Out</a>
+
+    </div>
+    <!--Icon-->
+    <div class="header-icon">
+         <i class='bx bx-cart-alt'></i>
+         <i class='bx bx-search-alt-2' id="search-icon"></i>
+    </div>
+    
+   <!--Search Box-->
+   <div class ="search-box">
+        <input type="search" placeholder="Search Here....">
+   </div>
+
+   </header>
+      <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                <td><img src="img/p1.jpg" alt=""></td>
+                <td>Chocalate Cake</td>
+                <td>Rs.4500/=</td>
+                <td><input type="number" value="1"></td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/p11.JPG" alt=""></td>
+                    <td>Chocalate Cake</td>
+                    <td>Rs.4500/=</td>
+                    <td><input type="number" value="1"></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                        <td><img src="img/p16.jpg" alt=""></td>
+                        <td>Chocalate Cake</td>
+                        <td>Rs.4500/=</td>
+                        <td><input type="number" value="1"></td>
+                        </tr>
+            </tbody>
+        </table>
+      </section>
+      <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+        <div>
+        <input type="text" placeholder="Enter Your Coupon">
+        <button class="normal">Apply</button>
+</div>
+</div>
+         <div id="Subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>Rs.5000.00</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>Rs.5000.00</strong></td>
+                </tr>
+            </table>
+            <button class="normal">Proced to checkout</button>
+         </div>
+      </section>
+        
+      
+      
+      
+      <!--Footer Section-->
+ <section class="footer">
+    <div class="footer-box">
+        <h3>Cake Shop</h3>
+        <p>From elegant and sophisticated to fun and whimsical, we offer a wide range of cakes, cupcakes, to suit any occasion. We also cater to dietary restrictions and allergies, ensuring that everyone can enjoy our treat.</p>
+    <div class="social">
+        <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+        <a href="#"><i class='bx bxl-twitter'></i></a>
+        <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+        <a href="#"><i class='bx bxl-tiktok'></i></a>
+
+    </div>
+    </div>
+    <div class="footer-box">
+        <h3>Links</h3>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="product.html">Products</a></li>
+        <li><a href="#">Customers</a></li>
+       
+
+    </div>
+    
+        <div class="footer-box">
+            <h3>Contact</h3>
+            <div class="contact">
+                <span><i class='bx bx-map' ></i>30, Mirigama Road, Mirigama</span>
+                <span><i class='bx bx-phone-call'></i>+94 75 369-2114</span>
+                <span><i class='bx bx-envelope' ></i>dreancake@shop.com</span>
+            </div>
+</section>
+        <script src="addtocart.js"></script>
+    </body>
+</html>
